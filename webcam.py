@@ -4,6 +4,7 @@ capvid = cv2.VideoCapture(0)
 
 capvid.set(3, 640)
 capvid.set(4, 480)
+capvid.set(10, 100)
 
 while True:
     success, img = capvid.read()
